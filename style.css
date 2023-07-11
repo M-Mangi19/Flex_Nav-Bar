@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:grey;
+    margin: 0 auto;
+    width: 1000px;
+}
+.nav-title{
+    align-items: center;
+    padding: 15px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+.active {
+    color:black; 
+}
+.active:hover {
+    color:black;
+    font-weight: 600;
+    background-color: red;
+}
+.btn{
+    background-color: aquamarine;
+    border-width: 2px;
+    box-shadow: 0 5px 5px 0 black;
+
+}
